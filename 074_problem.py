@@ -1,0 +1,4 @@
+import math
+x=float(input()); n=int(input()); s=0
+for i in range(n): s+=(-1)**i*x**(2*i+1)/math.factorial(2*i+1)
+print(s)
